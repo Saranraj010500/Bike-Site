@@ -1,0 +1,43 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "backdrop-filter",
+          "animation-timeline",
+          "animation-timeline: view(50% auto)",
+          "animation-timeline: view()",
+          "animation-timeline: view(40% auto)",
+          "animation-timeline: view(30% auto)",
+          "animation-timeline: view(10% auto)",
+          "animation-timeline: view(100% auto)"
+        ]
+      }
+    ],
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off",
+        "button-name": "off"
+      }
+    ],
+    "button-type": "off",
+    "axe/text-alternatives": [
+      "default",
+      {
+        "image-alt": "off"
+      }
+    ],
+    "no-inline-styles": "off"
+  }
+}
